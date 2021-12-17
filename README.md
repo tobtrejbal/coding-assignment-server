@@ -22,7 +22,7 @@ This file is loaded into the memory on the server startup.
 Product consists of three main parts
 - Header: Title and image
 - Content: Freeform content in a form of predefined block types (image, list, text)
-- Comments: Simulated discussion consisting of comments, where each comment can be attached to another parent comment
+- Comments: Simulated discussion consisting of comments, where each comment can be attached to another parent comment. Comments are stored in a flat hierarchy.
 
 For more information consult the model classes located in `model` folder.
 
