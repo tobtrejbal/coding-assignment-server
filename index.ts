@@ -5,6 +5,15 @@ import Comment from "./model/Comment";
 
 const app = express();
 app.use(express.json());
+app.use(function(req, res, next) {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Methods', '*');
+  res.header(
+    'Access-Control-Allow-Headers',
+    'Origin, Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers'
+  );
+  next();
+});
 const PORT = 3333;
 
 const memory = MemoryDB.fromJSON(products);
@@ -26,7 +35,7 @@ app.get('/products', (req, res) => {
 });
 
 app.post('/comments', (req, res) => {
-    const {productId, parentId, authorName, dateGmt, content} = req.body;
+	const {productId, parentId, authorName, dateGmt, content} = req.body;
     const comment = new Comment(-1, productId, parentId, authorName, dateGmt, content);
     const product = memory.products.find(product => product.id == comment.productId)
     if (!product)
