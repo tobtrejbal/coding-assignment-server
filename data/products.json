@@ -1,28 +1,92 @@
 [
   {
     "id": 1,
-    "title": "Product 1",
-    "imageUrl": "https://via.placeholder.com/650x400",
+    "title": "iPhone 12 mini",
+	"description": "Mobilní telefon - 5,4\" OLED 2340 × 1080, procesor Apple A14 Bionic 6jádrový, interní paměť 64 GB, zadní fotoaparát 12 Mpx (f/1,6) + 12 Mpx (f/2,4), přední fotoaparát 12 Mpx, optická stabilizace, GPS, Glonass, NFC, LTE, 5G, UWB, Lightning port, voděodolný dle IP68, single SIM + eSIM, neblokovaný, rychlé nabíjení 20W, bezdrátové nabíjení 12W, baterie 2227 mAh, iOS 14",
+    "imageUrl": "https://cdn.alza.cz/Foto/f4/RI/RI033b2.jpg",
     "blocks": [
       {
         "id": 1,
         "type": "text_block",
-        "text": "Maecenas sollicitudin sapien eget velit blandit feugiat."
-      },
+        "text": "Den D pro všechny Apple fanoušky je konečně tady. Tim Cook a jeho tým představil nádherný iPhone 12 Mini, který se svým hranatějším designem inspiruje u iPhonu 5. A ta výbava! Těšit se můžete na OLED displej, odolné sklo Ceramic Shield, výkonný čip Apple A14 Bionic, MagSafe nebo dvojitou fotosoustavu. Vše završuje hned pětice barevných provedení."    
+	  },
       {
         "id": 2,
         "type": "image_block",
         "text": "Nulla scelerisque.",
-        "imgUrl": "https://via.placeholder.com/450x300"
+        "imgUrl": "https://cdn.alza.cz/Foto/LegendFoto/photos/RI032b1_1.jpg"
+      },
+	  {
+        "id": 3,
+        "type": "text_block",
+        "text": "Nový iPhone 12 Mini je vybavený 5,4\" Super Retina XDR displejem, který nabízí jemné rozlišení 2 340 × 1 080 bodů s jemností 476 pixelů na palec. Mezi jeho klíčové benefity patří podpora HDR 10 a Dolby Vison, maximální jas 625 nitů (v HDR až 1 200) nebo ohromný kontrastní poměr 2 000 000:1. Celou čelní stranu pak kryje speciálně vyvinuté sklo zvané Ceramic Shield. Apple slibuje zhruba 4násobnou odolnost proti poškození při pádu."
+      },
+	  {
+        "id": 4,
+        "type": "text_block",
+        "text": "Mezi jeho hlavní předností patří"
       },
       {
-        "id": 3,
+        "id": 5,
         "type": "list_block",
         "items": [
-          "Pellentesque pharetra risus imperdiet neque ullamcorper, eu aliquam enim tempor.",
-          "Sed eget urna vel magna blandit ullamcorper.",
-          "Nulla blandit diam malesuada fermentum posuere.",
-          "Aenean at sapien a lacus semper blandit a id est."
+          "Skvělý 12 Mpx fotoaparát",
+          "Úžasná výdrž baterie",
+          "Rychlý procesor",
+          "Odolné provedení"
+        ]
+      },
+	  {
+        "id": 6,
+        "type": "text_block",
+        "text": "Pro telefon iPhone 12 Mini si Apple připravil duální fotoaparát s vylepšenou optikou. Hlavní širokoúhlý objektiv se pyšní světelností f/1,6, optickou stabilizací obrazu i sedmičlenným objektivem. Ultraširokoúhlý fotoaparát pak disponuje clonou f/2,4 a 120° zorným polem. Nárůst kvality snímků je znatelný i za sníženého osvětlení. Nová kamera totiž zachytí o 27 % více světla. To platí i pro natáčení videí. A mimochodem, jde o první řadu iPhonů s podporou záznamu videa ve filmové kvalitě Dolby Vision."
+      },
+      {
+        "id": 7,
+        "type": "table_block",
+        "parameters": [
+          {
+            "name": "Úhlopříčka displeje",
+            "value": "5,4\""
+          },
+          {
+            "name": "Rozlišení displeje",
+            "value": "2340 × 1080"
+          },
+          {
+            "name": "Operační systém",
+            "value": "iOS"
+          },
+          {
+            "name": "Vnitřní paměť",
+            "value": "64 GB"
+          }
+        ]
+      },
+	  {
+        "id": 8,
+        "type": "img_gallery_block",
+        "images": [
+          {
+            "text": "text",
+			"imgUrl": "https://cdn.alza.cz/Foto/f4/RI/RI033b2.jpg"
+          },
+		  {
+            "text": "text",
+			"imgUrl": "https://cdn.alza.cz/Foto/FotoAddOrig/RI/RI033b2-01.jpg"
+          },
+		  {
+            "text": "text",
+			"imgUrl": "https://cdn.alza.cz/Foto/FotoAddOrig/RI/RI033b2-02.jpg"
+          },
+		  {
+            "text": "text",
+			"imgUrl": "https://cdn.alza.cz/Foto/FotoAddOrig/RI/RI033b2-03.jpg"
+          },
+          {
+            "text": "text",
+			"imgUrl": "https://cdn.alza.cz/Foto/FotoAddOrig/RI/RI033b2-04.jpg"
+          }
         ]
       }
     ],
@@ -33,7 +97,7 @@
         "parentId": null,
         "authorName": "Brenna Stephenson",
         "dateGmt": "2021-06-15T11:46:26",
-        "content": "Aliquam in dui ac magna scelerisque vehicula eget at ligula."
+        "content": "Great device, beautiful photos."
       },
       {
         "id": 3,
@@ -41,15 +105,15 @@
         "parentId": 1,
         "authorName": "\nGary Bowen\n",
         "dateGmt": "2021-07-18T09:43:22",
-        "content": "Cras convallis dolor vel est vehicula, sed dapibus turpis imperdiet."
+        "content": "Can confirm that."
       },
       {
         "id": 2,
         "productId": 1,
         "parentId": null,
-        "authorName": "Seamus Gray",
+        "authorName": "Derek Sladek",
         "dateGmt": "2021-03-16T11:46:26",
-        "content": "Praesent condimentum enim sit amet sapien luctus vulputate et sed ipsum."
+        "content": "I bought this phone two months ago and it's runnig so slow I can barely use it. Not happy!"
       },
       {
         "id": 4,
@@ -57,23 +121,111 @@
         "parentId": 2,
         "authorName": "Tabitha Atkins",
         "dateGmt": "2021-03-17T11:46:26",
-        "content": "In porta diam ac mauris eleifend rutrum."
+        "content": "Sorry to hear that! Contact our support and we will sure help you!"
       },
       {
         "id": 5,
         "productId": 1,
-        "parentId": 2,
-        "authorName": "Carolina Leach",
+        "parentId": 4,
+        "authorName": "Derek Sladek",
         "dateGmt": "2021-03-17T11:53:26",
-        "content": "Curabitur sed turpis laoreet, aliquet tellus ut, dignissim ante."
+        "content": "Thanks a lot!"
+      }
+    ]
+  },  
+  {
+    "id": 2,
+    "title": "Samsung Galaxy A52s 5G černá",
+	"description": "Mobilní telefon - 6,5\" AMOLED 2400 × 1080, 120Hz, procesor Qualcomm Snapdragon 778G 8jádrový, RAM 6 GB, interní paměť 128 GB, Micro SD až 1000 GB, zadní fotoaparát 64 Mpx (f/1,8) + 12 Mpx (f/2,2) + 5 Mpx (f/2,4) + 5 Mpx (f/2,4), přední fotoaparát 32 Mpx, optická stabilizace, GPS, Glonass, NFC, LTE, 5G, Jack (3,5mm) a USB-C, čtečka otisků v displeji, voděodolný dle IP67, hybridní slot, neblokovaný, rychlé nabíjení 25W, baterie 4500 mAh, Android 11",
+    "imageUrl": "https://cdn.alza.cz/ImgW.ashx?fd=f4&cd=SAMO0223b2&i=1.jpg",
+    "blocks": [
+      {
+        "id": 9,
+        "type": "text_block",
+        "text": "Vizuální zážitek z používání Galaxy A52s 5G bude vždy jasný a jeho používání vždy plynulé. FHD+ Super AMOLED displej totiž dosahuje až 800 nitů a technologie Super Smooth zajistí hladký obraz při scrollování i používání aplikací. Pro ochranu vašeho zraku je tu řešení Eye Comfort Shield, které výrazně snižuje vyzařování modrého světla. Zažijte skutečně velkolepý obraz Infinity-O displeje s úhlopříčkou 6,5 palce."    
+	  },
+      {
+        "id": 10,
+        "type": "image_block",
+        "text": "Nulla scelerisque.",
+        "imgUrl": "https://cdn.alza.cz/Foto/LegendFoto/photos/SAMO0212b1_5.jpg"
+      },
+	  {
+        "id": 11,
+        "type": "text_block",
+        "text": "Základní charakteristika"
       },
       {
-        "id": 6,
-        "productId": 1,
-        "authorName": "Kael Mack",
-        "dateGmt": "2022-03-11T11:53:26",
-        "content": "Nulla efficitur nulla eget massa dignissim semper. Aenean condimentum sem viverra enim dictum tristique. Nulla rutrum, ligula at commodo eleifend, ex sem sodales magna, at maximus dui sapien a eros. Vestibulum a egestas ipsum, non luctus est. Nullam eu aliquam leo. Curabitur egestas sollicitudin urna eu aliquam. Sed non ex metus. Phasellus commodo vel metus cursus finibus. Maecenas eleifend ligula lectus, vel luctus metus tincidunt quis. Etiam ullamcorper in elit eget vehicula. In id venenatis turpis. Duis quis erat egestas, scelerisque purus a, rutrum dui. Sed lacus turpis, congue quis mollis id, cursus vitae neque."
+        "id": 12,
+        "type": "list_block",
+        "items": [
+          "Ultra rychlé 5G připojení",
+          "Elegantní design",
+          "Spousta paměti pro aplikace"
+        ]
+      },
+	  {
+        "id": 13,
+        "type": "text_block",
+        "text": "Nenechte si uniknout žádný zajímavý záběr s 64Mpx hlavním fotoaparátem, disponujícím ultra vysokým rozlišením a funkcí OIS pro stabilnější záběry. Na úžasná panoramata či skupinové fotografie využijete u chytrého telefonu Samsung Galaxy A52s 5G další, ultraširokoúhlý fotoaparát. S 5Mpx makro fotoaparátem zase vyhotovíte neuvěřitelně detailní snímky, které ještě lépe vyniknou s elegantním rozmazáním pozadí bokeh efektu. Pro posvícení si na detaily využijete také speciální snímač hloubky ostrosti. Foto modul navíc perfektně designově splyne s matnou povrchovou úpravou zadní strany telefonu Samsung Galaxy A52s 5G."
+      },
+	  {
+        "id": 14,
+        "type": "image_block",
+        "text": "Nulla scelerisque.",
+        "imgUrl": "https://cdn.alza.cz/Foto/LegendFoto/photos/SAMO0212b1_6.jpg"
+      },
+      {
+        "id": 15,
+        "type": "table_block",
+        "parameters": [
+          {
+            "name": "Úhlopříčka displeje",
+            "value": "6.5\""
+          },
+          {
+            "name": "Rozlišení displeje",
+            "value": "2400 × 1080"
+          },
+          {
+            "name": "Operační systém",
+            "value": "Android"
+          },
+          {
+            "name": "Vnitřní paměť",
+            "value": "128 GB"
+          }
+        ]
+      },
+	  {
+        "id": 16,
+        "type": "img_gallery_block",
+        "images": [
+          {
+            "text": "text",
+			"imgUrl": "https://cdn.alza.cz/ImgW.ashx?fd=FotoAddOrig&cd=SAMO0223b2-01&i=1.jpg"
+          },
+		  {
+            "text": "text",
+			"imgUrl": "https://cdn.alza.cz/ImgW.ashx?fd=FotoAddOrig&cd=SAMO0223b2-02&i=1.jpg"
+          },
+		  {
+            "text": "text",
+			"imgUrl": "https://cdn.alza.cz/ImgW.ashx?fd=FotoAddOrig&cd=SAMO0223b2-03&i=1.jpg"
+          },
+		  {
+            "text": "text",
+			"imgUrl": "https://cdn.alza.cz/ImgW.ashx?fd=FotoAddOrig&cd=SAMO0223b2-04&i=1.jpg"
+          },
+          {
+            "text": "text",
+			"imgUrl": "https://cdn.alza.cz/ImgW.ashx?fd=FotoAddOrig&cd=SAMO0223b2-05&i=1.jpg"
+          }
+        ]
       }
+    ],
+    "comments": [
+      
     ]
   }
 ]
